@@ -155,7 +155,7 @@ div .calc{
      }
      @media screen and (min-width: 340px ) and (max-width: 480px){
         div .calc{
-            min-width:60% !important;
+            min-width:62% !important;
         }
     
     }
