@@ -84,6 +84,7 @@ div .calc{
     background-color:#59E817;
 }
 
+
 @media screen and (max-width: 600px){
 
     body h4{
@@ -152,4 +153,13 @@ div .calc{
             min-width:24%;
         }
      }
+     @media screen and (max-width: 450px){
+        div .calc{
+            min-width:60% !important;
+        }
+    
+    }
+    
+
+     
      
