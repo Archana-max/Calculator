@@ -92,7 +92,9 @@ class Calculator {
 
     updateDisplay() {
 
+        
         this.currentOperandTextElement.innerText = this.getDisplay(this.currentOperand);
+
         if (this.operation != null) {
             this.previousOperandTextElement.innerText = `${this.getDisplay(this.previousOperand)} ${this.operation}`;
         }
