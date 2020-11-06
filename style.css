@@ -29,7 +29,7 @@ div .calc{
 }
 .wrapper{
     display:grid;
-    grid-template-columns: repeat(4,50px);
+    grid-template-columns: repeat(4,60px);
     grid-template-rows:minmax(120px,auto) repeat(5,50px);
     grid-gap:15px;
     justify-content: center;
@@ -112,6 +112,7 @@ div .calc{
         font-size: 1.1em;
     }
 }
+
     @media  screen and (max-width:768px) {
         body h4{
             font-size: 1.6em;
@@ -121,7 +122,7 @@ div .calc{
             min-width:35% !important;
         }
         .wrapper{
-            grid-template-columns: repeat(4,45px);
+            grid-template-columns: repeat(4,40px);
             grid-template-rows:minmax(105px,auto) repeat(5,45px);
             grid-gap:12px;
         }
@@ -139,26 +140,38 @@ div .calc{
         }   
     } 
 
-    @media  screen and (max-width:992px) {
+    @media  screen and (max-width:552px) {
         div .calc{
-            min-width:29% !important;
+            min-width:45% !important;
         }
         body h4{
             font-size: 1.7em;
         }
-    }
-
-     @media  screen and (max-width:1200px) {
-        div .calc{
-            min-width:24%;
-        }
-     }
-     @media screen and (min-width: 340px ) and (max-width: 480px){
-        div .calc{
-            min-width:62% !important;
+        .wrapper{
+            grid-template-columns: repeat(4,40px);
+            grid-template-rows:minmax(105px,auto) repeat(5,45px);
+            grid-gap:12px;
         }
     
     }
+
+     @media screen and (min-width: 700px ){
+        div .calc{
+            min-width:30% !important;
+        }
+    
+    }
+    @media  screen and (min-width:1200px) {
+        div .calc{
+            min-width:15% !important;
+        }
+        .wrapper{
+            grid-template-columns: repeat(4,40px);
+            grid-template-rows:minmax(105px,auto) repeat(5,45px);
+            grid-gap:12px;
+        }
+    
+     }
     
 
      
